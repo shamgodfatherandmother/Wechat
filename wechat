@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,wx.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,mmfile.qq.com
 
 # WeChat payment / mini program / IoT
 DOMAIN-SUFFIX,tenpay.com
