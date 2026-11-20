@@ -1,9 +1,14 @@
-# > WeChat DIRECT
-# > Shadowrocket RULE-SET format
-# > 纯域名版本，不含 IP / ASN
-# > 可以安全放在 Futu 规则集前面
 
+# > WeChat DIRECT V2
+# > Shadowrocket RULE-SET
+# > 35 domain rules
+# > Domain only / No IP / ASN / USER-AGENT
+# > WeChat DIRECT before Futu ASN rules
+# > Updated: 2026-11-20
+
+# =====================================
 # WeChat exact domains
+# =====================================
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
 DOMAIN,dldir1.qq.com
@@ -14,8 +19,11 @@ DOMAIN,vweixinf.tc.qq.com
 DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
 
+# =====================================
 # WeChat / Weixin core
+# =====================================
 DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,weixin.qq.com.cn
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatpay.com
@@ -26,13 +34,22 @@ DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,weixinsxy.com
 DOMAIN-SUFFIX,servicewechat.com
 
+# =====================================
 # WeChat QQ subdomains
+# =====================================
 DOMAIN-SUFFIX,wx.qq.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,wxapp.tc.qq.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
 
+# =====================================
+# WeChat Channels / Video
+# =====================================
+DOMAIN,finder.video.qq.com
+
+# =====================================
 # WeChat images / avatar / map / media
+# =====================================
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,lbs.gtimg.com
@@ -40,10 +57,14 @@ DOMAIN-SUFFIX,wx.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
 DOMAIN-SUFFIX,mmfile.qq.com
 
+# =====================================
 # WeChat payment / mini program / IoT
+# =====================================
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,iot-tencent.com
 
+# =====================================
 # WeChat auxiliary CDN
+# =====================================
 DOMAIN-SUFFIX,up-hl.3g.qq.com
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
